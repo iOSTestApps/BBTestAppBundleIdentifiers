@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "837986751E31AAC900B0CA2E"
-               BuildableName = "BBTestAppBundleIdentifiers.app"
-               BlueprintName = "BBTestAppBundleIdentifiers"
+               BlueprintIdentifier = "837986EA1E31AB4900B0CA2E"
+               BuildableName = "Framework.framework"
+               BlueprintName = "Framework"
                ReferencedContainer = "container:BBTestAppBundleIdentifiers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,36 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "837986911E31AAC900B0CA2E"
-               BuildableName = "BBTestAppBundleIdentifiersTests.xctest"
-               BlueprintName = "BBTestAppBundleIdentifiersTests"
-               ReferencedContainer = "container:BBTestAppBundleIdentifiers.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "837986F21E31AB4900B0CA2E"
-               BuildableName = "FrameworkTests.xctest"
-               BlueprintName = "FrameworkTests"
-               ReferencedContainer = "container:BBTestAppBundleIdentifiers.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "837986751E31AAC900B0CA2E"
-            BuildableName = "BBTestAppBundleIdentifiers.app"
-            BlueprintName = "BBTestAppBundleIdentifiers"
-            ReferencedContainer = "container:BBTestAppBundleIdentifiers.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -71,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "837986751E31AAC900B0CA2E"
-            BuildableName = "BBTestAppBundleIdentifiers.app"
-            BlueprintName = "BBTestAppBundleIdentifiers"
+            BlueprintIdentifier = "837986EA1E31AB4900B0CA2E"
+            BuildableName = "Framework.framework"
+            BlueprintName = "Framework"
             ReferencedContainer = "container:BBTestAppBundleIdentifiers.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "837986751E31AAC900B0CA2E"
-            BuildableName = "BBTestAppBundleIdentifiers.app"
-            BlueprintName = "BBTestAppBundleIdentifiers"
+            BlueprintIdentifier = "837986EA1E31AB4900B0CA2E"
+            BuildableName = "Framework.framework"
+            BlueprintName = "Framework"
             ReferencedContainer = "container:BBTestAppBundleIdentifiers.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

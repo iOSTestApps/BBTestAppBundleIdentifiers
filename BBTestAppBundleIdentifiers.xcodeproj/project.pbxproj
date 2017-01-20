@@ -15,6 +15,24 @@
 		837986891E31AAC900B0CA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837986881E31AAC900B0CA2E /* Assets.xcassets */; };
 		8379868C1E31AAC900B0CA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8379868A1E31AAC900B0CA2E /* LaunchScreen.storyboard */; };
 		837986971E31AAC900B0CA2E /* BBTestAppBundleIdentifiersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837986961E31AAC900B0CA2E /* BBTestAppBundleIdentifiersTests.m */; };
+		837986A81E31AB2800B0CA2E /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837986A71E31AB2800B0CA2E /* Messages.framework */; };
+		837986AC1E31AB2800B0CA2E /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837986AB1E31AB2800B0CA2E /* MessagesViewController.m */; };
+		837986AF1E31AB2800B0CA2E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837986AD1E31AB2800B0CA2E /* MainInterface.storyboard */; };
+		837986B11E31AB2800B0CA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837986B01E31AB2800B0CA2E /* Assets.xcassets */; };
+		837986B51E31AB2800B0CA2E /* iMessageApp.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 837986A51E31AB2800B0CA2E /* iMessageApp.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		837986C01E31AB3C00B0CA2E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837986BE1E31AB3C00B0CA2E /* Interface.storyboard */; };
+		837986C21E31AB3C00B0CA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837986C11E31AB3C00B0CA2E /* Assets.xcassets */; };
+		837986C91E31AB3C00B0CA2E /* WatchApp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 837986C81E31AB3C00B0CA2E /* WatchApp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		837986D11E31AB3C00B0CA2E /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837986D01E31AB3C00B0CA2E /* InterfaceController.m */; };
+		837986D41E31AB3C00B0CA2E /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 837986D31E31AB3C00B0CA2E /* ExtensionDelegate.m */; };
+		837986D71E31AB3C00B0CA2E /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837986D61E31AB3C00B0CA2E /* NotificationController.m */; };
+		837986D91E31AB3C00B0CA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837986D81E31AB3C00B0CA2E /* Assets.xcassets */; };
+		837986DD1E31AB3C00B0CA2E /* WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 837986BC1E31AB3C00B0CA2E /* WatchApp.app */; };
+		837986F41E31AB4900B0CA2E /* Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837986EB1E31AB4900B0CA2E /* Framework.framework */; };
+		837986FB1E31AB4900B0CA2E /* FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837986FA1E31AB4900B0CA2E /* FrameworkTests.m */; };
+		837986FD1E31AB4900B0CA2E /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 837986ED1E31AB4900B0CA2E /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		837987001E31AB4900B0CA2E /* Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837986EB1E31AB4900B0CA2E /* Framework.framework */; };
+		837987011E31AB4900B0CA2E /* Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 837986EB1E31AB4900B0CA2E /* Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +43,96 @@
 			remoteGlobalIDString = 837986751E31AAC900B0CA2E;
 			remoteInfo = BBTestAppBundleIdentifiers;
 		};
+		837986B31E31AB2800B0CA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8379866E1E31AAC900B0CA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837986A41E31AB2800B0CA2E;
+			remoteInfo = iMessageApp;
+		};
+		837986CA1E31AB3C00B0CA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8379866E1E31AAC900B0CA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837986C71E31AB3C00B0CA2E;
+			remoteInfo = "WatchApp Extension";
+		};
+		837986DB1E31AB3C00B0CA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8379866E1E31AAC900B0CA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837986BB1E31AB3C00B0CA2E;
+			remoteInfo = WatchApp;
+		};
+		837986F51E31AB4900B0CA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8379866E1E31AAC900B0CA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837986EA1E31AB4900B0CA2E;
+			remoteInfo = Framework;
+		};
+		837986F71E31AB4900B0CA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8379866E1E31AAC900B0CA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837986751E31AAC900B0CA2E;
+			remoteInfo = BBTestAppBundleIdentifiers;
+		};
+		837986FE1E31AB4900B0CA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8379866E1E31AAC900B0CA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837986EA1E31AB4900B0CA2E;
+			remoteInfo = Framework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		837986B91E31AB2800B0CA2E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				837986B51E31AB2800B0CA2E /* iMessageApp.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986E11E31AB3C00B0CA2E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				837986C91E31AB3C00B0CA2E /* WatchApp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986E51E31AB3C00B0CA2E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				837986DD1E31AB3C00B0CA2E /* WatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837987051E31AB4900B0CA2E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				837987011E31AB4900B0CA2E /* Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		837986761E31AAC900B0CA2E /* BBTestAppBundleIdentifiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBTestAppBundleIdentifiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +149,33 @@
 		837986921E31AAC900B0CA2E /* BBTestAppBundleIdentifiersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBTestAppBundleIdentifiersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837986961E31AAC900B0CA2E /* BBTestAppBundleIdentifiersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBTestAppBundleIdentifiersTests.m; sourceTree = "<group>"; };
 		837986981E31AAC900B0CA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837986A51E31AB2800B0CA2E /* iMessageApp.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iMessageApp.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		837986A71E31AB2800B0CA2E /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		837986AA1E31AB2800B0CA2E /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		837986AB1E31AB2800B0CA2E /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		837986AE1E31AB2800B0CA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		837986B01E31AB2800B0CA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		837986B21E31AB2800B0CA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837986BC1E31AB3C00B0CA2E /* WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837986BF1E31AB3C00B0CA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		837986C11E31AB3C00B0CA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		837986C31E31AB3C00B0CA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837986C81E31AB3C00B0CA2E /* WatchApp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchApp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837986CE1E31AB3C00B0CA2E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		837986CF1E31AB3C00B0CA2E /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		837986D01E31AB3C00B0CA2E /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		837986D21E31AB3C00B0CA2E /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		837986D31E31AB3C00B0CA2E /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		837986D51E31AB3C00B0CA2E /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		837986D61E31AB3C00B0CA2E /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		837986D81E31AB3C00B0CA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		837986DA1E31AB3C00B0CA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837986EB1E31AB4900B0CA2E /* Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		837986ED1E31AB4900B0CA2E /* Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Framework.h; sourceTree = "<group>"; };
+		837986EE1E31AB4900B0CA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837986F31E31AB4900B0CA2E /* FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837986FA1E31AB4900B0CA2E /* FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkTests.m; sourceTree = "<group>"; };
+		837986FC1E31AB4900B0CA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837987001E31AB4900B0CA2E /* Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +191,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986A21E31AB2800B0CA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837986A81E31AB2800B0CA2E /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986C51E31AB3C00B0CA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986E71E31AB4900B0CA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986F01E31AB4900B0CA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837986F41E31AB4900B0CA2E /* Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +232,12 @@
 			children = (
 				837986781E31AAC900B0CA2E /* BBTestAppBundleIdentifiers */,
 				837986951E31AAC900B0CA2E /* BBTestAppBundleIdentifiersTests */,
+				837986A91E31AB2800B0CA2E /* iMessageApp */,
+				837986BD1E31AB3C00B0CA2E /* WatchApp */,
+				837986CC1E31AB3C00B0CA2E /* WatchApp Extension */,
+				837986EC1E31AB4900B0CA2E /* Framework */,
+				837986F91E31AB4900B0CA2E /* FrameworkTests */,
+				837986A61E31AB2800B0CA2E /* Frameworks */,
 				837986771E31AAC900B0CA2E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +247,11 @@
 			children = (
 				837986761E31AAC900B0CA2E /* BBTestAppBundleIdentifiers.app */,
 				837986921E31AAC900B0CA2E /* BBTestAppBundleIdentifiersTests.xctest */,
+				837986A51E31AB2800B0CA2E /* iMessageApp.appex */,
+				837986BC1E31AB3C00B0CA2E /* WatchApp.app */,
+				837986C81E31AB3C00B0CA2E /* WatchApp Extension.appex */,
+				837986EB1E31AB4900B0CA2E /* Framework.framework */,
+				837986F31E31AB4900B0CA2E /* FrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +290,90 @@
 			path = BBTestAppBundleIdentifiersTests;
 			sourceTree = "<group>";
 		};
+		837986A61E31AB2800B0CA2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837986A71E31AB2800B0CA2E /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		837986A91E31AB2800B0CA2E /* iMessageApp */ = {
+			isa = PBXGroup;
+			children = (
+				837986AA1E31AB2800B0CA2E /* MessagesViewController.h */,
+				837986AB1E31AB2800B0CA2E /* MessagesViewController.m */,
+				837986AD1E31AB2800B0CA2E /* MainInterface.storyboard */,
+				837986B01E31AB2800B0CA2E /* Assets.xcassets */,
+				837986B21E31AB2800B0CA2E /* Info.plist */,
+			);
+			path = iMessageApp;
+			sourceTree = "<group>";
+		};
+		837986BD1E31AB3C00B0CA2E /* WatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				837986BE1E31AB3C00B0CA2E /* Interface.storyboard */,
+				837986C11E31AB3C00B0CA2E /* Assets.xcassets */,
+				837986C31E31AB3C00B0CA2E /* Info.plist */,
+			);
+			path = WatchApp;
+			sourceTree = "<group>";
+		};
+		837986CC1E31AB3C00B0CA2E /* WatchApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				837986CF1E31AB3C00B0CA2E /* InterfaceController.h */,
+				837986D01E31AB3C00B0CA2E /* InterfaceController.m */,
+				837986D21E31AB3C00B0CA2E /* ExtensionDelegate.h */,
+				837986D31E31AB3C00B0CA2E /* ExtensionDelegate.m */,
+				837986D51E31AB3C00B0CA2E /* NotificationController.h */,
+				837986D61E31AB3C00B0CA2E /* NotificationController.m */,
+				837986D81E31AB3C00B0CA2E /* Assets.xcassets */,
+				837986DA1E31AB3C00B0CA2E /* Info.plist */,
+				837986CD1E31AB3C00B0CA2E /* Supporting Files */,
+			);
+			path = "WatchApp Extension";
+			sourceTree = "<group>";
+		};
+		837986CD1E31AB3C00B0CA2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				837986CE1E31AB3C00B0CA2E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		837986EC1E31AB4900B0CA2E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				837986ED1E31AB4900B0CA2E /* Framework.h */,
+				837986EE1E31AB4900B0CA2E /* Info.plist */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		837986F91E31AB4900B0CA2E /* FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				837986FA1E31AB4900B0CA2E /* FrameworkTests.m */,
+				837986FC1E31AB4900B0CA2E /* Info.plist */,
+			);
+			path = FrameworkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		837986E81E31AB4900B0CA2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837986FD1E31AB4900B0CA2E /* Framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		837986751E31AAC900B0CA2E /* BBTestAppBundleIdentifiers */ = {
@@ -124,10 +383,16 @@
 				837986721E31AAC900B0CA2E /* Sources */,
 				837986731E31AAC900B0CA2E /* Frameworks */,
 				837986741E31AAC900B0CA2E /* Resources */,
+				837986B91E31AB2800B0CA2E /* Embed App Extensions */,
+				837986E51E31AB3C00B0CA2E /* Embed Watch Content */,
+				837987051E31AB4900B0CA2E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				837986B41E31AB2800B0CA2E /* PBXTargetDependency */,
+				837986DC1E31AB3C00B0CA2E /* PBXTargetDependency */,
+				837986FF1E31AB4900B0CA2E /* PBXTargetDependency */,
 			);
 			name = BBTestAppBundleIdentifiers;
 			productName = BBTestAppBundleIdentifiers;
@@ -152,6 +417,94 @@
 			productReference = 837986921E31AAC900B0CA2E /* BBTestAppBundleIdentifiersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		837986A41E31AB2800B0CA2E /* iMessageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837986B61E31AB2800B0CA2E /* Build configuration list for PBXNativeTarget "iMessageApp" */;
+			buildPhases = (
+				837986A11E31AB2800B0CA2E /* Sources */,
+				837986A21E31AB2800B0CA2E /* Frameworks */,
+				837986A31E31AB2800B0CA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMessageApp;
+			productName = iMessageApp;
+			productReference = 837986A51E31AB2800B0CA2E /* iMessageApp.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		837986BB1E31AB3C00B0CA2E /* WatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837986E21E31AB3C00B0CA2E /* Build configuration list for PBXNativeTarget "WatchApp" */;
+			buildPhases = (
+				837986BA1E31AB3C00B0CA2E /* Resources */,
+				837986E11E31AB3C00B0CA2E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837986CB1E31AB3C00B0CA2E /* PBXTargetDependency */,
+			);
+			name = WatchApp;
+			productName = WatchApp;
+			productReference = 837986BC1E31AB3C00B0CA2E /* WatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		837986C71E31AB3C00B0CA2E /* WatchApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837986DE1E31AB3C00B0CA2E /* Build configuration list for PBXNativeTarget "WatchApp Extension" */;
+			buildPhases = (
+				837986C41E31AB3C00B0CA2E /* Sources */,
+				837986C51E31AB3C00B0CA2E /* Frameworks */,
+				837986C61E31AB3C00B0CA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchApp Extension";
+			productName = "WatchApp Extension";
+			productReference = 837986C81E31AB3C00B0CA2E /* WatchApp Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		837986EA1E31AB4900B0CA2E /* Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837987021E31AB4900B0CA2E /* Build configuration list for PBXNativeTarget "Framework" */;
+			buildPhases = (
+				837986E61E31AB4900B0CA2E /* Sources */,
+				837986E71E31AB4900B0CA2E /* Frameworks */,
+				837986E81E31AB4900B0CA2E /* Headers */,
+				837986E91E31AB4900B0CA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework;
+			productName = Framework;
+			productReference = 837986EB1E31AB4900B0CA2E /* Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		837986F21E31AB4900B0CA2E /* FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837987061E31AB4900B0CA2E /* Build configuration list for PBXNativeTarget "FrameworkTests" */;
+			buildPhases = (
+				837986EF1E31AB4900B0CA2E /* Sources */,
+				837986F01E31AB4900B0CA2E /* Frameworks */,
+				837986F11E31AB4900B0CA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837986F61E31AB4900B0CA2E /* PBXTargetDependency */,
+				837986F81E31AB4900B0CA2E /* PBXTargetDependency */,
+			);
+			name = FrameworkTests;
+			productName = FrameworkTests;
+			productReference = 837986F31E31AB4900B0CA2E /* FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,6 +520,32 @@
 						ProvisioningStyle = Automatic;
 					};
 					837986911E31AAC900B0CA2E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L4FET847JL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 837986751E31AAC900B0CA2E;
+					};
+					837986A41E31AB2800B0CA2E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L4FET847JL;
+						ProvisioningStyle = Automatic;
+					};
+					837986BB1E31AB3C00B0CA2E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L4FET847JL;
+						ProvisioningStyle = Automatic;
+					};
+					837986C71E31AB3C00B0CA2E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L4FET847JL;
+						ProvisioningStyle = Automatic;
+					};
+					837986EA1E31AB4900B0CA2E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = L4FET847JL;
+						ProvisioningStyle = Automatic;
+					};
+					837986F21E31AB4900B0CA2E = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = L4FET847JL;
 						ProvisioningStyle = Automatic;
@@ -189,6 +568,11 @@
 			targets = (
 				837986751E31AAC900B0CA2E /* BBTestAppBundleIdentifiers */,
 				837986911E31AAC900B0CA2E /* BBTestAppBundleIdentifiersTests */,
+				837986A41E31AB2800B0CA2E /* iMessageApp */,
+				837986BB1E31AB3C00B0CA2E /* WatchApp */,
+				837986C71E31AB3C00B0CA2E /* WatchApp Extension */,
+				837986EA1E31AB4900B0CA2E /* Framework */,
+				837986F21E31AB4900B0CA2E /* FrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +589,46 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		837986901E31AAC900B0CA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986A31E31AB2800B0CA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837986B11E31AB2800B0CA2E /* Assets.xcassets in Resources */,
+				837986AF1E31AB2800B0CA2E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986BA1E31AB3C00B0CA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837986C21E31AB3C00B0CA2E /* Assets.xcassets in Resources */,
+				837986C01E31AB3C00B0CA2E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986C61E31AB3C00B0CA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837986D91E31AB3C00B0CA2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986E91E31AB4900B0CA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986F11E31AB4900B0CA2E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -233,6 +657,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		837986A11E31AB2800B0CA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837986AC1E31AB2800B0CA2E /* MessagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986C41E31AB3C00B0CA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837986D41E31AB3C00B0CA2E /* ExtensionDelegate.m in Sources */,
+				837986D11E31AB3C00B0CA2E /* InterfaceController.m in Sources */,
+				837986D71E31AB3C00B0CA2E /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986E61E31AB4900B0CA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837986EF1E31AB4900B0CA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837986FB1E31AB4900B0CA2E /* FrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +697,36 @@
 			isa = PBXTargetDependency;
 			target = 837986751E31AAC900B0CA2E /* BBTestAppBundleIdentifiers */;
 			targetProxy = 837986931E31AAC900B0CA2E /* PBXContainerItemProxy */;
+		};
+		837986B41E31AB2800B0CA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837986A41E31AB2800B0CA2E /* iMessageApp */;
+			targetProxy = 837986B31E31AB2800B0CA2E /* PBXContainerItemProxy */;
+		};
+		837986CB1E31AB3C00B0CA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837986C71E31AB3C00B0CA2E /* WatchApp Extension */;
+			targetProxy = 837986CA1E31AB3C00B0CA2E /* PBXContainerItemProxy */;
+		};
+		837986DC1E31AB3C00B0CA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837986BB1E31AB3C00B0CA2E /* WatchApp */;
+			targetProxy = 837986DB1E31AB3C00B0CA2E /* PBXContainerItemProxy */;
+		};
+		837986F61E31AB4900B0CA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837986EA1E31AB4900B0CA2E /* Framework */;
+			targetProxy = 837986F51E31AB4900B0CA2E /* PBXContainerItemProxy */;
+		};
+		837986F81E31AB4900B0CA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837986751E31AAC900B0CA2E /* BBTestAppBundleIdentifiers */;
+			targetProxy = 837986F71E31AB4900B0CA2E /* PBXContainerItemProxy */;
+		};
+		837986FF1E31AB4900B0CA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837986EA1E31AB4900B0CA2E /* Framework */;
+			targetProxy = 837986FE1E31AB4900B0CA2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +745,22 @@
 				8379868B1E31AAC900B0CA2E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		837986AD1E31AB2800B0CA2E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837986AE1E31AB2800B0CA2E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		837986BE1E31AB3C00B0CA2E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837986BF1E31AB3C00B0CA2E /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,6 +906,162 @@
 			};
 			name = Release;
 		};
+		837986B71E31AB2800B0CA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = iMessageApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.iMessageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		837986B81E31AB2800B0CA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = iMessageApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.iMessageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		837986DF1E31AB3C00B0CA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		837986E01E31AB3C00B0CA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		837986E31E31AB3C00B0CA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				IBSC_MODULE = WatchApp_Extension;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		837986E41E31AB3C00B0CA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				IBSC_MODULE = WatchApp_Extension;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		837987031E31AB4900B0CA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.Framework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		837987041E31AB4900B0CA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.Framework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		837987071E31AB4900B0CA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = FrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.FrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBTestAppBundleIdentifiers.app/BBTestAppBundleIdentifiers";
+			};
+			name = Debug;
+		};
+		837987081E31AB4900B0CA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = FrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.FrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBTestAppBundleIdentifiers.app/BBTestAppBundleIdentifiers";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -428,6 +1087,46 @@
 			buildConfigurations = (
 				8379869F1E31AAC900B0CA2E /* Debug */,
 				837986A01E31AAC900B0CA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837986B61E31AB2800B0CA2E /* Build configuration list for PBXNativeTarget "iMessageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837986B71E31AB2800B0CA2E /* Debug */,
+				837986B81E31AB2800B0CA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837986DE1E31AB3C00B0CA2E /* Build configuration list for PBXNativeTarget "WatchApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837986DF1E31AB3C00B0CA2E /* Debug */,
+				837986E01E31AB3C00B0CA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837986E21E31AB3C00B0CA2E /* Build configuration list for PBXNativeTarget "WatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837986E31E31AB3C00B0CA2E /* Debug */,
+				837986E41E31AB3C00B0CA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837987021E31AB4900B0CA2E /* Build configuration list for PBXNativeTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837987031E31AB4900B0CA2E /* Debug */,
+				837987041E31AB4900B0CA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837987061E31AB4900B0CA2E /* Build configuration list for PBXNativeTarget "FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837987071E31AB4900B0CA2E /* Debug */,
+				837987081E31AB4900B0CA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
