@@ -33,6 +33,27 @@
 		837986FD1E31AB4900B0CA2E /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 837986ED1E31AB4900B0CA2E /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		837987001E31AB4900B0CA2E /* Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837986EB1E31AB4900B0CA2E /* Framework.framework */; };
 		837987011E31AB4900B0CA2E /* Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 837986EB1E31AB4900B0CA2E /* Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8379870A1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987091E31AB7B00B0CA2E /* Debug.xcconfig */; };
+		8379870B1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987091E31AB7B00B0CA2E /* Debug.xcconfig */; };
+		8379870C1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987091E31AB7B00B0CA2E /* Debug.xcconfig */; };
+		8379870D1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987091E31AB7B00B0CA2E /* Debug.xcconfig */; };
+		8379870E1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987091E31AB7B00B0CA2E /* Debug.xcconfig */; };
+		8379870F1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987091E31AB7B00B0CA2E /* Debug.xcconfig */; };
+		837987101E31AB7B00B0CA2E /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987091E31AB7B00B0CA2E /* Debug.xcconfig */; };
+		837987121E31ABAA00B0CA2E /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987111E31ABAA00B0CA2E /* Release.xcconfig */; };
+		837987131E31ABAA00B0CA2E /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987111E31ABAA00B0CA2E /* Release.xcconfig */; };
+		837987141E31ABAA00B0CA2E /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987111E31ABAA00B0CA2E /* Release.xcconfig */; };
+		837987151E31ABAA00B0CA2E /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987111E31ABAA00B0CA2E /* Release.xcconfig */; };
+		837987161E31ABAA00B0CA2E /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987111E31ABAA00B0CA2E /* Release.xcconfig */; };
+		837987171E31ABAA00B0CA2E /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987111E31ABAA00B0CA2E /* Release.xcconfig */; };
+		837987181E31ABAA00B0CA2E /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987111E31ABAA00B0CA2E /* Release.xcconfig */; };
+		8379871A1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */; };
+		8379871B1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */; };
+		8379871C1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */; };
+		8379871D1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */; };
+		8379871E1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */; };
+		8379871F1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */; };
+		837987201E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,6 +197,9 @@
 		837986F31E31AB4900B0CA2E /* FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837986FA1E31AB4900B0CA2E /* FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkTests.m; sourceTree = "<group>"; };
 		837986FC1E31AB4900B0CA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837987091E31AB7B00B0CA2E /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		837987111E31ABAA00B0CA2E /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Enterprise.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +254,9 @@
 		8379866D1E31AAC900B0CA2E = {
 			isa = PBXGroup;
 			children = (
+				837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */,
+				837987111E31ABAA00B0CA2E /* Release.xcconfig */,
+				837987091E31AB7B00B0CA2E /* Debug.xcconfig */,
 				837986781E31AAC900B0CA2E /* BBTestAppBundleIdentifiers */,
 				837986951E31AAC900B0CA2E /* BBTestAppBundleIdentifiersTests */,
 				837986A91E31AB2800B0CA2E /* iMessageApp */,
@@ -582,9 +609,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8379870A1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */,
 				8379868C1E31AAC900B0CA2E /* LaunchScreen.storyboard in Resources */,
 				837986891E31AAC900B0CA2E /* Assets.xcassets in Resources */,
 				837986841E31AAC900B0CA2E /* Main.storyboard in Resources */,
+				837987121E31ABAA00B0CA2E /* Release.xcconfig in Resources */,
+				8379871A1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +622,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837987131E31ABAA00B0CA2E /* Release.xcconfig in Resources */,
+				8379870B1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */,
+				8379871B1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,8 +632,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837987141E31ABAA00B0CA2E /* Release.xcconfig in Resources */,
+				8379871C1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */,
 				837986B11E31AB2800B0CA2E /* Assets.xcassets in Resources */,
 				837986AF1E31AB2800B0CA2E /* MainInterface.storyboard in Resources */,
+				8379870C1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,8 +644,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837987151E31ABAA00B0CA2E /* Release.xcconfig in Resources */,
+				8379871D1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */,
 				837986C21E31AB3C00B0CA2E /* Assets.xcassets in Resources */,
 				837986C01E31AB3C00B0CA2E /* Interface.storyboard in Resources */,
+				8379870D1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,7 +656,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8379870E1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */,
 				837986D91E31AB3C00B0CA2E /* Assets.xcassets in Resources */,
+				837987161E31ABAA00B0CA2E /* Release.xcconfig in Resources */,
+				8379871E1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +667,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837987171E31ABAA00B0CA2E /* Release.xcconfig in Resources */,
+				8379870F1E31AB7B00B0CA2E /* Debug.xcconfig in Resources */,
+				8379871F1E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,6 +677,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837987181E31ABAA00B0CA2E /* Release.xcconfig in Resources */,
+				837987101E31AB7B00B0CA2E /* Debug.xcconfig in Resources */,
+				837987201E31ABCC00B0CA2E /* Enterprise.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,6 +816,7 @@
 /* Begin XCBuildConfiguration section */
 		837986991E31AAC900B0CA2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837987091E31AB7B00B0CA2E /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -816,6 +865,7 @@
 		};
 		8379869A1E31AAC900B0CA2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837987111E31ABAA00B0CA2E /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -863,7 +913,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = BBTestAppBundleIdentifiers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -875,7 +925,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = BBTestAppBundleIdentifiers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -887,7 +937,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = BBTestAppBundleIdentifiersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiersTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER)Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBTestAppBundleIdentifiers.app/BBTestAppBundleIdentifiers";
 			};
@@ -900,7 +950,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = BBTestAppBundleIdentifiersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiersTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER)Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBTestAppBundleIdentifiers.app/BBTestAppBundleIdentifiers";
 			};
@@ -913,7 +963,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = iMessageApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.iMessageApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).iMessageApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -926,7 +976,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = iMessageApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.iMessageApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).iMessageApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -939,7 +989,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -955,7 +1005,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -971,7 +1021,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -987,7 +1037,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppBundleIdentifiers.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1009,7 +1059,7 @@
 				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.Framework;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).Framework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1030,7 +1080,7 @@
 				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.Framework;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).Framework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1044,7 +1094,7 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = FrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.FrameworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).FrameworkTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBTestAppBundleIdentifiers.app/BBTestAppBundleIdentifiers";
 			};
@@ -1056,11 +1106,157 @@
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = FrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.FrameworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).FrameworkTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBTestAppBundleIdentifiers.app/BBTestAppBundleIdentifiers";
 			};
 			name = Release;
+		};
+		837987211E31ABF300B0CA2E /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Enterprise;
+		};
+		837987221E31ABF300B0CA2E /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = BBTestAppBundleIdentifiers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Enterprise;
+		};
+		837987231E31ABF300B0CA2E /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = BBTestAppBundleIdentifiersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER)Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBTestAppBundleIdentifiers.app/BBTestAppBundleIdentifiers";
+			};
+			name = Enterprise;
+		};
+		837987241E31ABF300B0CA2E /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = iMessageApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).iMessageApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Enterprise;
+		};
+		837987251E31ABF300B0CA2E /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				IBSC_MODULE = WatchApp_Extension;
+				INFOPLIST_FILE = WatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Enterprise;
+		};
+		837987261E31ABF300B0CA2E /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Enterprise;
+		};
+		837987271E31ABF300B0CA2E /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).Framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Enterprise;
+		};
+		837987281E31ABF300B0CA2E /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = FrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BASE_BUNDLE_IDENTIFIER).FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBTestAppBundleIdentifiers.app/BBTestAppBundleIdentifiers";
+			};
+			name = Enterprise;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1070,6 +1266,7 @@
 			buildConfigurations = (
 				837986991E31AAC900B0CA2E /* Debug */,
 				8379869A1E31AAC900B0CA2E /* Release */,
+				837987211E31ABF300B0CA2E /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1079,6 +1276,7 @@
 			buildConfigurations = (
 				8379869C1E31AAC900B0CA2E /* Debug */,
 				8379869D1E31AAC900B0CA2E /* Release */,
+				837987221E31ABF300B0CA2E /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -1087,6 +1285,7 @@
 			buildConfigurations = (
 				8379869F1E31AAC900B0CA2E /* Debug */,
 				837986A01E31AAC900B0CA2E /* Release */,
+				837987231E31ABF300B0CA2E /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -1095,6 +1294,7 @@
 			buildConfigurations = (
 				837986B71E31AB2800B0CA2E /* Debug */,
 				837986B81E31AB2800B0CA2E /* Release */,
+				837987241E31ABF300B0CA2E /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -1103,6 +1303,7 @@
 			buildConfigurations = (
 				837986DF1E31AB3C00B0CA2E /* Debug */,
 				837986E01E31AB3C00B0CA2E /* Release */,
+				837987261E31ABF300B0CA2E /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -1111,6 +1312,7 @@
 			buildConfigurations = (
 				837986E31E31AB3C00B0CA2E /* Debug */,
 				837986E41E31AB3C00B0CA2E /* Release */,
+				837987251E31ABF300B0CA2E /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -1119,6 +1321,7 @@
 			buildConfigurations = (
 				837987031E31AB4900B0CA2E /* Debug */,
 				837987041E31AB4900B0CA2E /* Release */,
+				837987271E31ABF300B0CA2E /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -1127,6 +1330,7 @@
 			buildConfigurations = (
 				837987071E31AB4900B0CA2E /* Debug */,
 				837987081E31AB4900B0CA2E /* Release */,
+				837987281E31ABF300B0CA2E /* Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
