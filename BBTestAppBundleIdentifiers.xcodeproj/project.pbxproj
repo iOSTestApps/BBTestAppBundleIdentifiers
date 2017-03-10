@@ -200,6 +200,8 @@
 		837987091E31AB7B00B0CA2E /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		837987111E31ABAA00B0CA2E /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		837987191E31ABCC00B0CA2E /* Enterprise.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Enterprise.xcconfig; sourceTree = "<group>"; };
+		837987291E32892B00B0CA2E /* BBTestAppBundleIdentifiers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BBTestAppBundleIdentifiers.entitlements; sourceTree = "<group>"; };
+		8379872A1E32897200B0CA2E /* BBTestAppBundleIdentifiers-enterprise.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "BBTestAppBundleIdentifiers-enterprise.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +288,8 @@
 		837986781E31AAC900B0CA2E /* BBTestAppBundleIdentifiers */ = {
 			isa = PBXGroup;
 			children = (
+				8379872A1E32897200B0CA2E /* BBTestAppBundleIdentifiers-enterprise.entitlements */,
+				837987291E32892B00B0CA2E /* BBTestAppBundleIdentifiers.entitlements */,
 				8379867C1E31AAC900B0CA2E /* AppDelegate.h */,
 				8379867D1E31AAC900B0CA2E /* AppDelegate.m */,
 				8379867F1E31AAC900B0CA2E /* ViewController.h */,
@@ -545,6 +549,11 @@
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = L4FET847JL;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+						};
 					};
 					837986911E31AAC900B0CA2E = {
 						CreatedOnToolsVersion = 8.2;
@@ -910,6 +919,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BBTestAppBundleIdentifiers/BBTestAppBundleIdentifiers.entitlements;
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = BBTestAppBundleIdentifiers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -922,6 +932,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BBTestAppBundleIdentifiers/BBTestAppBundleIdentifiers.entitlements;
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = BBTestAppBundleIdentifiers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1159,6 +1170,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BBTestAppBundleIdentifiers/BBTestAppBundleIdentifiers-enterprise.entitlements";
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = BBTestAppBundleIdentifiers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
