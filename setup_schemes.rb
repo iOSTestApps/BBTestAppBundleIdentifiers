@@ -23,6 +23,7 @@ scheme = Xcodeproj::XCScheme.new
 scheme.add_build_target(target_for_scheme)
 scheme.set_launch_target(target_for_scheme)
 scheme.launch_action.build_configuration = configuration_name
+scheme.archive_action.build_configuration = configuration_name
 scheme.save_as(project.path(), configuration_name, true)
 
 project.save
