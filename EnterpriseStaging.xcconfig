@@ -1,0 +1,10 @@
+//
+//  EnterpriseStaging.xcconfig
+//  BBTestAppBundleIdentifiers
+//
+//  Created by Chris Stott on 2017-01-19.
+//  Copyright © 2017 Chris Stott. All rights reserved.
+//
+
+BASE_BUNDLE_IDENTIFIER=enterprise-staging.com.buddybuild.BBTestAppBundleIdentifiers
+PRODUCT_BUNDLE_IDENTIFIER=$(BASE_BUNDLE_IDENTIFIER)
