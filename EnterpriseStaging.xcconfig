@@ -8,3 +8,4 @@
 
 BASE_BUNDLE_IDENTIFIER=enterprise-staging.com.buddybuild.BBTestAppBundleIdentifiers
 PRODUCT_BUNDLE_IDENTIFIER=$(BASE_BUNDLE_IDENTIFIER)
+CODE_SIGN_ENTITLEMENTS=BBTestAppBundleIdentifiers/BBTestAppBundleIdentifiers-enterprise.entitlements
