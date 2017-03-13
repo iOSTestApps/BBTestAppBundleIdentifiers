@@ -26,6 +26,16 @@ project.build_configurations.each do |build_configuration|
 
         # Use the new .xcconfig
         generated_configuration.base_configuration_reference = xcconfig_file
+        
+        # Mark any properties we want the xcconfig to override as $(inherited) in the new config.
+        # HACK! -- This is done by hand, there may be a way better way via a list of variable names
+        # from the .xcconfig, but haven't looked into it yet.
+        generated_configuration.build_settings["CODE_SIGN_ENTITLEMENTS"] = "$(inherited)"
+        generated_configuration.build_settings["GCC_PREPROCESSOR_DEFINITIONS"] = "$(inherited)"
+        generated_configuration.build_settings["PROVISIONING_PROFILE"] = "$(inherited)"
+        generated_configuration.build_settings["PRODUCT_BUNDLE_IDENTIFIER"] = "$(inherited)"
+        generated_configuration.build_settings["DEVELOPMENT_TEAM"] = "$(inherited)"
+        generated_configuration.build_settings["CODE_SIGN_IDENTITY"] = "$(inherited)"
 
         # Copy over the build settings from the original build configuration
         generated_configuration.build_settings = build_configuration.build_settings
@@ -48,6 +58,16 @@ project.targets.each do |target|
 
             # Copy over the target-level build settings
             generated_target_configuration.build_settings = build_configuration.build_settings
+            
+            # Mark any properties we want the xcconfig to override as $(inherited) in the new config.
+            # HACK! -- This is done by hand, there may be a way better way via a list of variable names
+            # from the .xcconfig, but haven't looked into it yet.
+            generated_target_configuration.build_settings["CODE_SIGN_ENTITLEMENTS"] = "$(inherited)"
+			generated_target_configuration.build_settings["GCC_PREPROCESSOR_DEFINITIONS"] = "$(inherited)"
+			generated_target_configuration.build_settings["PROVISIONING_PROFILE"] = "$(inherited)"
+			generated_target_configuration.build_settings["PRODUCT_BUNDLE_IDENTIFIER"] = "$(inherited)"
+			generated_target_configuration.build_settings["DEVELOPMENT_TEAM"] = "$(inherited)"
+			generated_target_configuration.build_settings["CODE_SIGN_IDENTITY"] = "$(inherited)"
 
             # Now add the new build configuration
             target.build_configuration_list.build_configurations << generated_target_configuration
