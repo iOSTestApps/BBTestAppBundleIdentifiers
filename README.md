@@ -18,4 +18,4 @@ There is a buddybuild_postclone.sh script that calls a ruby script, setups_schem
 # View results
 
 You can view the build in buddybuild here (or fork it and sign it up yourself):
-https://dashboard.buddybuild.com/public/apps/588178b460f9a701005a4d7f/build/58817bf01a53a00100c246a5
+https://dashboard.buddybuild.com/apps/58c663e22d1cd40100e2281f/build/58c6649fff97cb010033dab2#logs
